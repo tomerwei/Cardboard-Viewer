@@ -20,7 +20,7 @@
             }
         </style>
     </head>
-    
+
     <body>
     <div id="example"></div>
 
@@ -157,6 +157,8 @@
         render(clock.getDelta());
     }
 
+    console.log("hello world");
+    
     function fullscreen() {
         if (container.requestFullscreen) {
             container.requestFullscreen();
@@ -167,7 +169,7 @@
         } else if (container.webkitRequestFullscreen) {
             container.webkitRequestFullscreen();
         }
-    }  
+    }
   </script>
   </body>
 </html>
